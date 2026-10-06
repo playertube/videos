@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Vídeos</title>
 
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .video-secao {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .video-secao video {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .botao-download {
+            display: block;
+            width: 100%;
+            margin-top: 12px;
+            padding: 12px 0;
+            background: #2196f3;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            box-sizing: border-box;
+        }
+
+        .botao-download:hover {
+            background: #1976d2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- VÍDEO 1 -->
+    <section class="video-secao">
+
+        <video controls>
+            <source src="videos/video1.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
+        <a 
+            href="videos/video1.mp4" 
+            download="video1.mp4" 
+            class="botao-download">
+            ⬇ Baixar vídeo
+        </a>
+
+    </section>
+
+
+    <!-- VÍDEO 2 
+    <section class="video-secao">
+
+        <video controls>
+            <source src="videos/video2.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
+        <a 
+            href="videos/video2.mp4" 
+            download="video2.mp4" 
+            class="botao-download">
+            ⬇ Baixar vídeo
+        </a>
+
+    </section>
+
+
+    <!-- VÍDEO 3
+    <section class="video-secao">
+
+        <video controls>
+            <source src="videos/video3.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
+        <a 
+            href="videos/video3.mp4" 
+            download="video3.mp4" 
+            class="botao-download">
+            ⬇ Baixar vídeo
+        </a>
+
+    </section> -->
+
+</body>
+</html>
